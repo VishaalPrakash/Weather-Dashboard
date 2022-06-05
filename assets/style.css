@@ -1,0 +1,118 @@
+.header {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: #b098ff;
+    color:black;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    border-bottom: 5px solid rgb(41, 0, 177);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.click {
+    background-color:#b098ff;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 2px solid black;
+    border-radius: 0.25rem;
+}
+.fiveday {
+    margin:0 auto;
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+#searchContainer {
+border-right:2px solid black;
+margin-top: 15px;
+padding: 0 24px;
+text-align: center;
+
+}
+.weathercontainer {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.currentContainer {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 5px;
+    display:none;
+    
+}
+#cityStats {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: bolder;
+
+}
+.cityStats2 {
+    align-self:flex-start;
+}
+.forecastHeader {
+    display:flex;
+    justify-content: center;
+}
+
+ .forecastContainer {
+    display:flex;
+    flex-direction:row;
+    padding:30px;
+    justify-content: center;
+    align-items: flex-end; 
+    
+ } 
+ 
+ul {
+    list-style: none;
+}
+ul li {
+    font-family:'Open Sans', sans-serif;;
+    font-size:16px;
+}
+
+.uvLow {
+    background-color: rgb(0, 255, 0);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.uvMod {
+    background: rgb(255, 255, 0);
+    border-radius: 10px;
+    width:100%;
+}
+
+.uvSevere {
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    width: 100%;
+}
+.card {
+    background-color: #9d9dd6;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 5px 5px rgba(110, 43, 255, 0.234);
+    border-radius: 5px;
+    height: 15rem;
+    max-width: 12rem; 
+    margin: 5px;
+}
+.list-group button {
+    background-color: black;
+    font-family:'Open Sans', sans-serif;
+    color:white;
+    padding: 8px 12px;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 14px;
+    text-align:center;
+}
